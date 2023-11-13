@@ -9,19 +9,10 @@ public class BubbleSort {
                     int temp = array[j];
                     array[j] = array[j+1];
                     array[j+1] = temp;
-                    printArray(array);
+                    System.out.println(array.toString());
                 }
             }
         }
-    }
-
-
-    public static void printArray(int array[]) {
-        int n = array.length;
-        for (int i=0; i<n; ++i) {
-            System.out.print(array[i] + " ");
-        }
-        System.out.println();
     }
 }
 

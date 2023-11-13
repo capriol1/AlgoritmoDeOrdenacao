@@ -13,7 +13,7 @@ public class main {
 
         System.out.println("QUICK SORT");
         System.out.print("Original array:" );
-        QuickSort.printArray(array);
+        System.out.println(array.toString());
         QuickSort.quickSort(array,0, array.length-1);
 
     }

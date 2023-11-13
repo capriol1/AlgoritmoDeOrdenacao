@@ -19,23 +19,16 @@ public class QuickSort {
                 int swapTemp = array[i];
                 array[i] = array[j];
                 array[j] = swapTemp;
-                printArray(array);
+                System.out.println(array.toString());
             }
         }
 
         int swapTemp = array[i + 1];
         array[i + 1] = array[ultimo];
         array[ultimo] = swapTemp;
-        printArray(array);
+        System.out.println(array.toString());
 
         return i + 1;
-    }
-    public static void printArray(int array[]) {
-        int n = array.length;
-        for (int i=0; i<n; ++i) {
-            System.out.print(array[i] + " ");
-        }
-        System.out.println();
     }
 }
 
