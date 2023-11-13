@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class InsertionSort {
 
     public static void insertionSort(int[] array) {
@@ -10,7 +12,7 @@ public class InsertionSort {
                 j--;
             }
             array[j + 1] = key;
-            System.out.println(array.toString());
+            System.out.println(Arrays.toString(array));
         }
     }
 }

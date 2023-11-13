@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class BubbleSort {
 
     public static void bubbleSort(int array[]) {
@@ -9,7 +11,7 @@ public class BubbleSort {
                     int temp = array[j];
                     array[j] = array[j+1];
                     array[j+1] = temp;
-                    System.out.println(array.toString());
+                    System.out.println(Arrays.toString(array));
                 }
             }
         }
